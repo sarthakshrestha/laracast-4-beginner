@@ -1,3 +1,3 @@
 ## Laracast Blog
 
-Learning Blog
+Learning Laravel from Laracast
