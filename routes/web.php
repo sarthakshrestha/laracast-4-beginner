@@ -6,7 +6,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 //    return Blog::find('my-first-post');
     $blogs = Blog::all();
-    ddd($blogs);
 
 
     return view('blogs', [
