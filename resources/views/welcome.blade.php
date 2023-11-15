@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css\app.css">
-    <title>Laracast Welcome Page</title>
+    <title>Welcome to Zeus Blogs Page</title>
 </head>
 
 <body>
     <div class="header">
         <h1>Laravel Journal Management Web-App</h1>
-        <h2>Laravel Journal Creator Tutorial</h2>
+        <h2>Zeus Journal powered by Laravel </h2>
         <h3><a href="/entries">View The Journal of Zeus</a></h3>
     </div>
     <div class="text">

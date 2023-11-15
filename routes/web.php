@@ -13,7 +13,7 @@ Route::get('/entries', function () {
     ]);
 });
 
-Route::get('/yaml', function(){
+Route::get('/yaml', function () {
     $document = YamlFrontMatter::parseFile(
         resource_path('entries/first-entry.html')
     );
@@ -24,12 +24,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('entries/{entry}', function($slug){
-    return view('entry',[
-       'entry' => Entry::find($slug)
-   ]);
+Route::get('entries/{entry}', function ($slug) {
+    return view('entry', [
+        'entry' => Entry::find($slug)
+    ]);
 })->where('entry', '[A-z_\-]+');
 
-Route::get('/error', function(){
+Route::get('/error', function () {
     return view('404');
 });

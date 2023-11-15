@@ -20,21 +20,30 @@ a{
     text-decoration: none;
 }
 
-.header{
+header{
     margin: auto;
-    padding: 30px;
-    width: 50%;
+    padding: 5px;
+    width: 64%;
+    text-align: center;
     max-width: 700px;
 }
 
+header h1{
+    font-size: 89px;
+    font-family: "Fira Code";
+}
+
 h1{
-    font-size: 45px;
+    font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: "Fira Code";
 }
 
 h2{
-    font-size: 21px;
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    margin: 0 auto;
 }
 
 h3{
@@ -44,7 +53,7 @@ h3{
 
 .text{
     margin: auto;
-    padding: 25px;
+    padding: 12px;
     width: 50%;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 850px;
@@ -54,7 +63,6 @@ article{
     margin: 0 auto;
     width: 40%;
     padding: 3px;
-
 }
 
 article h1{

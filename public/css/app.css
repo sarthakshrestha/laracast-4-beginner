@@ -2,22 +2,30 @@
     margin: auto;
     padding: 30px;
     width: 50%;
-    max-width: 700x;
+    max-width: 700px;
+}
+
+a{
+    text-decoration: none;
+    color: #2d3748;
 }
 
 h1{
-    font-size: 42px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 98px;
+    font-family: 'Fira Code';
+    color: #4a5568;
 }
 
 h2{
     font-size: 21px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fira Code';
 }
 
 h3{
-    font-size: 14px;
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fira Code';
+    text-decoration: none;
 }
 
 .text{
@@ -26,4 +34,9 @@ h3{
     width: 50%;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 850px;
+}
+
+p{
+    font-size: 22px;
+    font-family: Futura;
 }
