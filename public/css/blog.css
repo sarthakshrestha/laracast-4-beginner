@@ -16,34 +16,32 @@
 }
 
 a{
-    color: black;
+    font-size: 52px;
+    color: #000000;
+    width: 60%;
     text-decoration: none;
+    font-family: Futura;
 }
+
 
 header{
     margin: auto;
-    padding: 5px;
     width: 64%;
-    text-align: center;
+    text-align: left;
     max-width: 700px;
 }
 
 header h1{
-    font-size: 89px;
+    font-size: 102px;
     font-family: "Fira Code";
-}
-
-h1{
-    font-size: 26px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: "Fira Code";
+    color: #4a5568;
 }
 
 h2{
-    font-size: 24px;
+    font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 40%;
-    margin: 0 auto;
+    color: #1a202c;
+    font-style: italic;
 }
 
 h3{
