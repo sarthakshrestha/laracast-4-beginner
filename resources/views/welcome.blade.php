@@ -10,12 +10,12 @@
 
 <body>
     <div class="header">
-        <h1>Laravel Blog Web-App</h1>
-        <h2>Laravel Blog Tutorial</h2>
-        <h3><a href="/blogs">View Blogs</a></h3>
+        <h1>Laravel Journal Management Web-App</h1>
+        <h2>Laravel Journal Creator Tutorial</h2>
+        <h3><a href="/entries">View The Journal of Zeus</a></h3>
     </div>
     <div class="text">
-        <p><b>About the Blog:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper aliquam sapien commodo sodales. Integer
+        <p><b>About the Journal of Zeus:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper aliquam sapien commodo sodales. Integer
             odio nulla, gravida sit amet dolor sed, feugiat ornare ipsum. Fusce pharetra luctus ligula, egestas euismod
             neque vehicula eget. Quisque fringilla ligula elementum erat eleifend imperdiet. Aliquam ac rutrum lectus,
             non gravida lorem. Vivamus tempus nibh eu bibendum dapibus. Integer ac sem id risus luctus placerat id vel

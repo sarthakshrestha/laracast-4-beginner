@@ -7,11 +7,6 @@
     border-top: solid black 1px;
 }
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-}
-
 .body-blog{
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -23,4 +18,45 @@ h1{
 a{
     color: black;
     text-decoration: none;
+}
+
+.header{
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+    max-width: 700px;
+}
+
+h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+    margin: auto;
+    padding: 25px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 850px;
+}
+
+article{
+    margin: 0 auto;
+    width: 40%;
+    padding: 3px;
+
+}
+
+article h1{
+    font-size: 52px;
 }

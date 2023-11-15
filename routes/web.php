@@ -1,25 +1,35 @@
 <?php
 
-use App\Models\Blog;
+use App\Models\Entry;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
-
-Route::get('/', function () {
-//    return Blog::find('my-first-post');
-    $blogs = Blog::all();
+use League\CommonMark\Event\DocumentParsedEvent;
+use Spatie\YamlFrontMatter\YamlFrontMatter;
 
 
-    return view('blogs', [
-        'blogs' => Blog::all()
+Route::get('/entries', function () {
+    return view('entries', [
+        'entries' => Entry::all()
     ]);
 });
 
-Route::get('/blogs', function () {
-    return view('blogs');
+Route::get('/yaml', function(){
+    $document = YamlFrontMatter::parseFile(
+        resource_path('entries/first-entry.html')
+    );
+    ddd($document);
 });
 
-Route::get('blogs/{blog}', function($slug){
-   return view('blog',[
-       'blog' => Blog::find($slug)
-   ]);
-})->where('blog', '[A-z_\-]+');
+Route::get('/', function () {
+    return view('welcome');
+});
 
+Route::get('entries/{entry}', function($slug){
+    return view('entry',[
+       'entry' => Entry::find($slug)
+   ]);
+})->where('entry', '[A-z_\-]+');
+
+Route::get('/error', function(){
+    return view('404');
+});
