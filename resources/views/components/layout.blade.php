@@ -8,8 +8,5 @@
     <link rel="stylesheet" href="css/blog.css">
 </head>
 <body>
-<header>
-    @yield('banner')
-</header>
-    @yield('content')
+    {{ $slot }}
 </body>

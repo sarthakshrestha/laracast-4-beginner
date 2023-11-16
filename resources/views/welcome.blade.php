@@ -10,8 +10,8 @@
 
 <body>
     <div class="header">
-        <h1>Laravel Journal Management Web-App</h1>
-        <h2>Zeus Journal powered by Laravel </h2>
+        <h1>Zeus's Own Journal Management Web-App</h1>
+        <h2>powered by Laravel </h2>
         <h3><a href="/entries">View The Journal of Zeus</a></h3>
     </div>
     <div class="text">

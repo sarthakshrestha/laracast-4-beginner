@@ -1,4 +1,4 @@
-@extends('entrylayout')
+@extends('components.entrylayout')
 
 @section('entry')
     <article>
@@ -8,6 +8,6 @@
                 {{ $entry->body }}
             </p>
         </div>
-        <h3><a href="/">Return back</a></h3>
+        <h3><a href="/entries">Return back</a></h3>
     </article>
 @endsection

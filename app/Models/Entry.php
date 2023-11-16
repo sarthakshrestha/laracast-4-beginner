@@ -29,7 +29,7 @@ class Entry
 
     public static function all()
     {
-        return cache()->rememberForever('entries.all', function () {
+//        return cache()->rememberForever('entries.all', function () {
             return collect(File::files(resource_path("entries")))
                 ->map(fn($file) => YamlFrontMatter::parseFile($file))
                 ->map(fn($document) => new Entry(
@@ -40,11 +40,22 @@ class Entry
                     $document->slug
                 ))
                 ->sortByDesc('date');
-        });
+
     }
     public static function find($slug)
     {
         // Find the slug that matches the one which is requested
-        return static::all()->firstWhere('slug', $slug);
+        static::all()->firstWhere('slug', $slug);
+
+    }
+
+    public static function findOrFail($slug)
+    {
+        // Find the slug that matches the one which is requested
+        $post = static::find($slug);
+        if(! $post){
+            throw new ModelNotFoundException();
+        }
+        return $post;
     }
 }

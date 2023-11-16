@@ -26,10 +26,10 @@ Route::get('/', function () {
 
 Route::get('entries/{entry}', function ($slug) {
     return view('entry', [
-        'entry' => Entry::find($slug)
+        'entry' => Entry::findOrFail($slug)
     ]);
 })->where('entry', '[A-z_\-]+');
 
 Route::get('/error', function () {
-    return view('404');
+    return view('errors.404');
 });
