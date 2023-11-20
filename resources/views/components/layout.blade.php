@@ -8,5 +8,5 @@
     <link rel="stylesheet" href="css/blog.css">
 </head>
 <body>
-    {{ $slot }}
+    @yield('main')
 </body>

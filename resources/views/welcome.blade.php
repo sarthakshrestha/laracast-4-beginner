@@ -11,7 +11,7 @@
 <body>
     <div class="header">
         <h1>Zeus's Own Journal Management Web-App</h1>
-        <h2>powered by Laravel </h2>
+        <h2>powered by Laravel </h2><img class="laravel-icon" src="/icon/laravel.svg">
         <h3><a href="/entries">View The Journal of Zeus</a></h3>
     </div>
     <div class="text">

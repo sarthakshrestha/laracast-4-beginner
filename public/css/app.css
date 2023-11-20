@@ -1,7 +1,7 @@
 .header{
     margin: auto;
-    padding: 30px;
-    width: 50%;
+    padding: 10px;
+    width: 90%;
     max-width: 700px;
 }
 
@@ -10,20 +10,24 @@
     font-size: 22px;
 }
 
+.laravel-icon{
+    height: 85px;
+    width: auto;
+}
+
 a{
     text-decoration: none;
     color: #2d3748;
     font-family: Roboto;
-    font-size: 42px;
+    font-size: 26px;
 }
 
 h1{
-    font-size: 98px;
+    font-size: 75px;
     font-family: Georgia;
     color: #4a5568;
+    width: 70%;
 }
-
-
 
 h2{
     font-size: 21px;
@@ -39,8 +43,8 @@ h3{
 
 .text{
     margin: auto;
-    padding: 25px;
-    width: 50%;
+    padding: 15px;
+    width: 75%;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 850px;
 }
